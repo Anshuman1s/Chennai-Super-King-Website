@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy';
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 5vw;
+    background-color: yellow;
+    display: flex;
+}
+nav #right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav #center img{
+    height: 5vw;
+    margin-left: 40%;
+}
+nav #left{
+    width: 40%;
+    height: 5vw;
+    /* background-color: red; */
+}
+nav #center{
+    width: 20%;
+    height: 5vw;
+    /* background-color: aquamarine; */
+}
+nav #right{
+    width: 40%;
+    height: 5vw;
+    /* background-color: blue; */
+}
+nav #right i {
+    cursor: pointer;
+}
+#content{
+    width: 100%;
+    height: 21.67vw;
+    background-color: aquamarine;
+    /* display: flex; */
+}
+#content img{
+    width: 100%;
+}
+#main-content{
+    width: 100%;
+    height: 21.5vw;
+    /* background-color: red; */
+    /* display: flex; */
+    padding: 0.1px;
+    /* background-color: #cdc6be; */
+}
+#main-content #heading{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'canopee';
+    font-weight: 500;
+    /* background-color: #cdc6be; */
+}
+#main-content #main-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    font-family: 'poppins';
+}
+#main-content #main-heading a{
+    text-decoration: none;
+    color: black;
+    
+}
+#main-content #main-heading a h2{
+    font-weight: 500;
+
+}
+#main-content #main-heading a h2:hover{
+    color: rgb(98, 98, 228);
+}
+
+#bat{
+    width: 100%;
+    height: fit-content;
+    /* background-color: red; */
+    display: flex;
+    padding: 0.1px;
+    /* background-color: #cdc6be; */
+}
+#bat .elem{
+    height: 70%;
+    width: 31.07vw;
+    /* background-color: pink; */
+    margin: 2px;
+    margin-left: 1%;
+}
+#bat .elem img{
+    height: fit-content;
+    width: 100%;
+}
+#bat .elem h1{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'poppins';
+}
+#bat .elem button{
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: 'poppins';
+    border-radius: 0px;
+}
+#t-shirt{
+    width: 100%;
+    height: calc(100% - 50%);
+    /* background-color: yellow; */
+    display: flex;
+    padding: 0.1px;
+    margin-top: 5%;
+    /* background-color: #cdc6be; */
+}
+#t-shirt .elem{
+    height: 100%;
+    width: 33.33vw;
+    /* background-color: aqua; */
+    margin: 2px;
+    /* mix-blend-mode: multiply; */
+}
+#t-shirt .elem img{
+    height: 33.33vw;
+    width: 100%;
+    /* mix-blend-mode: multiply; */
+}
+#t-shirt .elem h1{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'poppins';
+    /* mix-blend-mode: multiply; */
+}
+#t-shirt .elem button{
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+#bag{
+    width: 100%;
+    height: calc(100% - 50%);
+    /* background-color: yellow; */
+    display: flex;
+    padding: 0.1px;
+    /* background-color: #cdc6be; */
+    margin-top: 20%;
+    /* mix-blend-mode: multiply; */
+}
+#bag .elem{
+    height: 100%;
+    width: 33.33vw;
+    /* background-color: aqua; */
+    margin: 2px;
+    /* mix-blend-mode: multiply; */
+    
+}
+#bag .elem img{
+    height: 33.33vw;
+    width: 100%;
+}
+#bag .elem h1{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'poppins';
+}
+#bag .elem button{
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: 'poppins';
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+}
+#bottel{
+    width: 100%;
+    height: calc(100% - 50%);
+    /* background-color: yellow; */
+    display: flex;
+    padding: 0.1px;
+    margin-top: 20%;
+    /* background-color: #cdc6be; */
+   
+}
+#bottel .elem{
+    height: 100%;
+    width: 33.33vw;
+    /* background-color: aqua; */
+    margin: 2px;
+   
+}
+#bottel .elem img{
+    height: 33.33vw;
+    width: 100%;
+    margin-top: 20%;
+}
+#bottel .elem h1{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'poppins';
+}
+#bottel .elem button{
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: 'poppins';
+    border-radius: 5px;
+    margin-bottom: 5%;
+}

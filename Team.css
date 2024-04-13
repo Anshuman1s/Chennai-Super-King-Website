@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:max-content;
+    font-family: 'Gilroy';
+}
+#main{
+    /* width:max-content; */
+    height: 100%;
+    background-color: #cdc6be;
+    
+
+}
+nav{
+    width: 100%;
+    height: 5vw;
+    background-color: yellow;
+    padding: 0.1px;
+    position: fixed;
+    
+}
+nav img{
+    width: 20%;
+    height: 5vw;
+    margin-left: 40%;
+}
+#team{
+    width: 100%;
+    height: 5vw;
+    padding: 0.1px;
+    
+}
+#team h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'canopee';
+    font-weight: 500;
+}
+#thala-profession{
+    text-align: center;
+    font-family: 'canopee';
+    border-top: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#thala{
+    width: 100%;
+    height: 25vw;
+    
+    display: flex;
+    
+}
+
+#thala .elem{
+    width: 33.33%;
+    height: 25vw;
+   
+    margin-left: 37%;
+}
+#thala .elem img{
+   width: fit-content;
+   height: fit-content;
+   
+    
+}
+#batter{
+    text-align: center;
+    font-family: 'canopee';
+    border-top: 2px solid black;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    background-color: #cdc6be;
+}
+#main-batter{
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+    display: flex;
+}
+#main-batter .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+    background-color: #cdc6be;
+}
+#main-batter .elems img{
+    width: fit-content;
+    height: fit-content;
+}
+#main-batter-2{
+    display: flex;
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+}
+#main-batter-2 .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+
+}
+#allrounder{
+    text-align: center;
+    font-family: 'canopee';
+    border-top: 2px solid black;
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    background-color: #cdc6be;
+}
+#allrounder-image{
+    display: flex;
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+}
+#allrounder-image .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+    /* background-color: #cdc6be; */
+}
+#allrounder-image-2{
+    display: flex;
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+}
+#allrounder-image-2 .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+    /* background-color: #cdc6be; */
+}
+#Bowler{
+    text-align: center;
+    font-family: 'canopee';
+    border-top: 2px solid black;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    background-color: #cdc6be;
+
+}
+#bowlers{
+    display: flex;
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+}
+#bowlers .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+}
+#bowlers-2{
+    display: flex;
+    width: 100%;
+    height: 29vw;
+    background-color: #cdc6be;
+}
+#bowlers-2 .elems{
+    width: 33.33vw;
+    height:29vw;
+    margin: 2px;
+    margin-left: 4.5vw;
+
+}
+
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 1s;
+    font-family: 'Gilroy';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    color: aliceblue;
+    font-size:4vw;
+    background-color: yellow;
+    color: transparent;
+    -webkit-background-clip:text;
+    position:absolute;
+    opacity: 0;
+    animation-name: loads;
+    animation-duration:1s ;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+@keyframes loads {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+

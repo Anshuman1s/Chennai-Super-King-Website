@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    cursor:crosshair;
+    
+}
+#main{
+    width: 100%;
+    height: max-content;
+    background-color: #cdc6be;
+}
+nav{
+    width: 100%;
+    height: 5vw;
+    background-color:yellow;
+    display: flex;
+}
+nav #left{
+    width: 40%;
+    height: 5vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav #image{
+    height: 5vw;
+    width:20%;
+    /* background-color: blue; */
+}
+nav #image img{
+    width: 20%;
+    height: 5vw;
+    margin-left: 35%;
+}
+nav #left a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav #left a h4{
+    font-weight: 500;
+    font-family: 'canopee';
+}
+
+nav #right{
+    width: 40%;
+    height: 5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav #right a{
+    text-decoration: none;
+    color: black;
+}
+nav #right a h4{
+    font-weight: 500;
+    font-family: 'canopee';
+}
+nav #right a h4 i{
+    display: none;
+}
+@media (max-width:650px) {
+    nav #left a{
+        width: 40%;
+        height: 5vw;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+    nav #right a{
+        width: 40%;
+        height: 5vw;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+    nav #left a h4 i{
+        display:initial;
+    }
+    nav #right a h4 i{
+       display: initial;
+    }
+}
+
+#nav-2{
+    width: 100%;
+    height: 5vw;
+    /* background-color: red; */
+}
+#nav-2 img{
+    width: 20%;
+    height: 5vw;
+    margin-left: 40%;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 10vw);
+    /* background-color: aquamarine; */
+    display: flex;
+}
+#content #leftdiv{
+    width: 50%;
+    height:100%;
+    /* background-color: aquamarine    ; */
+
+}
+#content #leftdiv h1{
+    font-size: 6vw;
+    font-family:'canopee';
+    font-weight: 500;
+    text-align: center;
+}
+#content #leftdiv p{
+    font-size: 1.6vw;
+    font-weight: 500;
+    font-family: 'Cantora One';
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    margin-left: 70px;
+
+}
+#content #leftdiv p span{
+    color: rgb(52, 76, 155);
+    font-family: 'canopee';
+}
+#content #rightdiv{
+    width: 50%;
+    height:100%;
+    /* background-color: palegoldenrod; */
+    /* background-color: yellow; */
+    
+}
+#rightdiv img{
+    width: 50%;
+    height:50%;
+    margin-left: 30%;
+    /* border-radius: 50%; */
+    margin-top: 3%;
+   
+}
+#down{
+    height: 100%;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    
+}
+#down #first{
+    width: 100%;
+    height: 33.33vw;
+    /* background-color: red; */
+    display: flex;
+}
+#down #second{
+    width: 100%;
+    height: 33.33vw;
+    /* background-color: yellow; */
+    display: flex;
+    margin: 2px;
+}
+#down #third{
+    width: 100%;
+    height: 33.33vw;
+    /* background-color: blue; */
+    display: flex;
+    margin: 2px;
+}
+#down #first .elem{
+    width: 30.33vw;
+    height: 30.33vw;
+    /* background-color: pink; */
+    margin: 2px;
+    margin-left: 2vw;
+}
+#down #first .elem img{
+    width: 30.33vw;
+    height: 30.33vw;
+    
+}
+#down #second .elem img{
+    width: 30.33vw;
+    height: 30.33vw;
+    /* background-color: gold; */
+    margin: 2px;
+    margin-left: 2vw;
+}
+#down #third .elem img{
+    width: 30.33vw;
+    height: 30.33vw;
+    /* background-color: green; */
+    margin: 2px;
+    margin-left: 2vw;
+}
+#image-gallery h1{
+    font-size: 5vw;
+    font-family: 'canopee';
+    font-weight: 500;
+    text-align: center;
+}
+#sponsor{
+    width: 100%;
+    height: 50%;
+    
+    
+    
+}
+#partner h1{
+    font-weight: 500;
+    font-size: 5vw;
+    font-family: 'canopee';
+    text-align: center;
+}
+#scroller{
+    display: flex;
+}
+#sponsor #scroller .image{
+    height: 13.8vw;
+    width: 13.8vw;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+}
+#sponsor #scroller .image img{
+    height: 13.8vw;
+    width: 13.8vw;
+    mix-blend-mode: multiply;
+}
+#sponsor #scroller .image img:nth-last-child(1){
+    border-radius: 50%;
+}
+#footer{
+    height: 20vw;
+    width: 100%;
+    
+    display: flex;
+}
+#footer .left{
+    height: 20vw;
+    width: 30%;
+    /* background-color: white; */
+    font-family: 'poppins';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+
+}
+#footer .left  a {
+    text-decoration: none;
+    color: #212121;
+}
+#footer .center{
+    height: 20vw;
+    width: 40%;
+    
+    position: relative;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+
+}
+#footer .center h3{
+    text-align: center;
+    margin-top: 23%;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+#footer .right{
+    height: 20vw;
+    width: 30%;
+    border-top: 2px solid black;
+}
+#footer .right h3{
+    text-align: center;
+    margin-top: 32%;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 1s;
+    font-family: 'Gilroy';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    color: aliceblue;
+    font-size:4vw;
+    background-color: yellow;
+    color: transparent;
+    -webkit-background-clip:text;
+    position:absolute;
+    opacity: 0;
+    animation-name: loads;
+    animation-duration:1s ;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+@keyframes loads {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.cursors{
+    height: 24px;
+    width: 24px;
+    border-radius:24px ;
+    background-color:black ;
+    position: absolute;
+    top:0;
+    left: 0;
+}
